@@ -116,7 +116,6 @@ h1, h2, h3, p {
 .header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .header__nav {
   display: flex;
@@ -150,6 +149,7 @@ h1, h2, h3, p {
 }
 .header__address {
   font-style: normal;
+  margin-left: auto;
 }
 .address-list {
   display: flex;
@@ -173,12 +173,9 @@ h1, h2, h3, p {
 .section-solutions {
   background: #2E2F42;
   padding: 188px 0;
+  text-align: center;
 }
-.section-solutions .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .section-solutions .button{
 }
 
@@ -251,10 +248,7 @@ h1, h2, h3, p {
   margin-bottom: 8px;
   text-align: left;
 }
-.portfolio__title, 
-.portfolio__description {
-  padding: 0 16px;
-}
+
 .portfolio__description {
   letter-spacing: 0.02em;
 }
